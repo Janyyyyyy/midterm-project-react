@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #e0f7fa; /* Light cyan background */
+  color: #ffffff; /* Changed font color to white */
+  font-family: 'Roboto', sans-serif; /* Clean font */
+  background-size: cover; /* Changed to cover for better appearance */
+}
+
+h1, h2 {
+  color: #ffffff; /* Changed font color to white */
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Clean font */
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Added text shadow to headers */
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin: 20px; 
+  box-shadow: 0 0 10px rgba(255, 253, 253, 0.1); 
+}
+
+button {
+  background-color: #618894;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none; /* Removed border */
+}
+
+button:hover {
+  background-color: #00796b; /* Darker teal on hover */
+  /* Removed box shadow for buttons */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow to table */
+}
+
+th {
+  background-color: #00796b; /* Teal color for table header */
+  color: #ffffff; /* Changed font color to white */
+}
+
+td {
+  background-color: #ffffff;
+  color: #333333; /* Changed font color to dark gray */
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Added box shadow to inputs */
+}
+
+input[type="number"] {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+  color: #666666; /* Changed font color to medium gray */
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Added text shadow to paragraphs */
+}
